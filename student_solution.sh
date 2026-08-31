@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Remove a Single File
+# Test files and directories create panron
+touch filename.txt file1.txt file2.txt file3.txt
+mkdir -p directory_name
+
+# Files & Directories remove panron
 rm filename.txt
-
-# Remove Multiple Files
 rm file1.txt file2.txt file3.txt
-
-# Remove a Directory
 rmdir directory_name
-
-# Remove a Directory and Subdirectories
-rm -r directory_name
