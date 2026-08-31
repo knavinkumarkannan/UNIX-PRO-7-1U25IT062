@@ -1,16 +1,13 @@
 #!/bin/bash
 
-# 1. Delete a single file using rm
+# Remove a Single File
 rm filename.txt
 
-# 2. Delete multiple files using rm
-rm file1.txt file2.txt
+# Remove Multiple Files
+rm file1.txt file2.txt file3.txt
 
-# 3. Force delete a file without confirmation
-rm -f file3.txt
+# Remove a Directory
+rmdir directory_name
 
-# 4. Delete an empty directory using rmdir
-rmdir empty_directory
-
-# 5. Delete a non-empty directory and its contents recursively using rm -r
-rm -r my_folder
+# Remove a Directory and Subdirectories
+rm -r directory_name
