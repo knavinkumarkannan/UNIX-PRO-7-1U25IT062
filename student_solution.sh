@@ -1,16 +1,13 @@
 #!/bin/bash
 
 # 1. Delete a single file
-# Write your command here
-
+rm file1.txt
 
 # 2. Delete multiple files
-# Write your command here
-
+rm file1.txt file2.txt
 
 # 3. Remove an empty directory
-# Write your command here
-
+rmdir mydir
 
 # 4. Remove a directory containing files and subdirectories
-# Write your command here
+rm -rf mydir
